@@ -1,0 +1,37 @@
+.crop_wrap{
+	position:relative;
+}
+.crop_controlls{
+	padding: 4px 10px;
+	background: rgba(0, 0, 0, 0.6);
+	position:absolute;
+	z-index: 10;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.crop_controlls button{
+	width: 27px;
+	height: 27px;
+	display:inline-block;
+	background: url(../img/crop.png) no-repeat 0px 0px;
+	font-size: 0px;
+	border: 0px;
+	outline: none;
+	cursor:pointer;
+	position:relative;
+	z-index: 11;
+	
+	opacity: 0.6;
+	
+	-webkit-transition: opacity 0.4s;
+	-moz-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+.crop_controlls button:hover{
+	opacity: 0.8;
+}
+.crop_controlls .crop_cancel{
+	background-position: 0px -27px;
+}
